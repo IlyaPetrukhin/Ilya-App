@@ -1,0 +1,541 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  background: #F2F2F2;
+  max-width: 1440px;
+  ;
+}
+
+/* Menu */
+.menu {
+  background: #191720;
+  mix-blend-mode: normal;
+  opacity: 0.47;
+  display: flex;
+  align-items: center;
+  height: 78px;
+
+}
+
+.menu__navigation {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 1.90909px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.menu__navigation div {
+  margin-right: 113px;
+}
+
+.menu__logo {
+  background-color: red;
+  width: 49.87px;
+  height: 49.87px;
+  background-image: url(../images/Path.png);
+  position: relative;
+  margin: 14px 94px 14px 94px;
+}
+
+.menu__logo .logo-inside {
+  width: 15.19px;
+  height: 15.19px;
+  background: #00B0FF;
+  position: absolute;
+
+}
+
+.menu__icons .icon-find {
+  background: #FFFFFF;
+  width: 25px;
+  height: 25px;
+}
+
+.menu__icons .buy-icon {
+  background: #FFFFFF;
+  width: 25px;
+  height: 25px;
+}
+
+.menu__icons .person-icon {
+  background: #FFFFFF;
+  width: 25px;
+  height: 25px;
+}
+
+/* End of Menu */
+.container {
+  height: 616px;
+  background: #2B2835;
+  margin-top: -78px;
+  display: flex;
+
+}
+
+.container__image {
+  width: 856px;
+  height: 766px;
+  background: url(../images/Earphones.png);
+
+}
+
+.container__content1 {
+  margin-top: 121px;
+}
+
+.container__content1_description-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+.container__content1_description-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+.container__content1_description-price {
+  display: flex;
+  align-items: center;
+}
+
+.container__content1_description-price .price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #F2F2F2;
+  margin-right: 34px;
+}
+
+.container__content1_description-price .round-btn1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  border: none;
+  background: #00B0FF;
+  background: #00B0FF;
+  border-radius: 100px;
+  padding: 11px 48px 13px 48px;
+
+}
+
+.container__content1_description-footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #00B0FF;
+}
+
+/* End of Container */
+.container1 {
+  display: flex;
+  align-items: center;
+
+}
+
+.container1__image {
+  width: 755px;
+  height: 755px;
+  background: url(../images/Bitmap.png);
+}
+
+.container1__content1 {
+  margin: 89px 67px 0 96px;
+}
+
+.container1__content1_ovals {
+  display: flex;
+  align-items: center;
+}
+
+/* Овалы 2-го блока */
+
+.ovals__ov1 {
+  width: 46px;
+  height: 46px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-right: 14px;
+  position: relative;
+}
+
+.ovals__ov1_inside {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  background: #FFFFFF;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+  margin: 3.2px 0 0 3.2px;
+}
+
+.ovals__ov2 {
+  width: 37px;
+  height: 37px;
+  background: #DD5656;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+  margin-right: 13px;
+}
+
+.ovals__ov3 {
+  width: 37px;
+  height: 37px;
+  background: #000000;
+  border: 1px solid #EAEAEA;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+  border-radius: 100px;
+}
+
+.container1__content1_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.container1__content1_header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.container1__content1_available {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.container1__content1_find {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.container1__content1_price {
+  display: flex;
+  align-items: center;
+}
+
+.container1__content1_price .price {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.container1__content1_price .round-btn2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 43px;
+  padding: 12px 15px;
+  border: none;
+  background: #000000;
+  border-radius: 100px;
+}
+
+.container1__content1_footer {
+  color: #000000;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  background: url(../images/Fon.png);
+}
+
+.container2__img {
+  width: 701px;
+  height: 804px;
+  background: url(../images/Earphones2.png);
+}
+
+.container2__text {
+  font-family: Montserrat;
+}
+
+.container2__text_begin {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #F8F8F9;
+}
+
+.container2__text_header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #F8F8F9;
+}
+
+.container2__text_description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+
+  color: #F8F8F9;
+}
+
+.container2__text_price {
+  display: flex;
+  align-items: center;
+}
+
+.container2__text_price .price {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFF00;
+}
+
+.container2__text_price .round-btn3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  background: #000000;
+  border-radius: 100px;
+  color: #FFFFFF;
+  margin-left: 41px;
+  padding: 10px 48px 14px 48px;
+  border: none;
+}
+
+.container2__text_footer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+/* End of 3rd block */
+.container3 {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+
+}
+
+.container3__img {
+  background: url(../images/Earphones3.png);
+  width: 739px;
+  height: 739px;
+}
+
+.container3__text {
+  font-family: Montserrat;
+  font-style: normal;
+  margin-left: 93px;
+  margin-right: 160px;
+}
+
+.container3__text_begin {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2835;
+}
+
+.container3__text_header {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.container3__text_description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  color: #030303;
+}
+
+.container3__text_price {
+  display: flex;
+  align-items: center;
+}
+
+.container3__text_price .price {
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.container3__text_price .round-btn4 {
+  background: #000000;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  padding: 12px 15px;
+  margin-left: 57px;
+  border: none;
+}
+
+.product {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  margin: 0 100px;
+}
+
+.product__slide {
+  background: #F8F8F9;
+  width: 296px;
+  height: 543px;
+}
+
+.connection {
+  background: #F8F8F9;
+  width: 1253px;
+  height: 334.81px;
+  margin: 106px 95px 64px 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.connection__header {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2B2835;
+}
+
+.connection__info {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #030303;
+  margin-bottom: 46px;
+}
+
+.connection__email {
+  border: 1px solid #BFBFBF;
+  box-sizing: border-box;
+  border-radius: 18px;
+  width: 507px;
+  height: 36px;
+  margin-bottom: 19px;
+}
+
+.connection__btn {
+  background: #00B0FF;
+  border-radius: 100px;
+  padding: 12px 241px;
+  border: none;
+}
+
+.footer {
+
+  background: #2B2835;
+
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 55px 0px 14px 0px;
+
+}
+
+.main a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+.footer__products {}
+
+.footer__support {}
+
+.footer__company {}
+
+.footer__follow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+.footer__info {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.31;
+}
