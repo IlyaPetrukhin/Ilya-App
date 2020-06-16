@@ -16,9 +16,9 @@
 
 <body>
 
-  <%= require('html-loader!../partials/nav.html') %>
-
-  <div class="container">
+   <%= require('html-loader!../partials/nav.html') %> 
+  
+  <section class="container">
     <div class="container__image"></div>
     <div class='container__content1'>
       <div class="container__content1_description-name">
@@ -37,8 +37,8 @@
         <p>$60 Apple Music gift card with purchase of select Beats products.*</p>
       </div>
     </div>
-  </div>
-  <div class="container1">
+  </section>
+  <section class="container1">
     <div class='container1__content1'>
       <p class="container1__content1_name">Portable Wireless Speaker</p>
       <p class="container1__content1_header">Beats Pill</p>
@@ -65,8 +65,8 @@
     </div>
     <div class="container1__image">
     </div>
-  </div>
-  <div class="container2">
+  </section>
+  <section class="container2">
     <div class="container2__img"></div>
     <div class="container2__text">
       <p class="container2__text_begin">Totally wireless high-performance earphones</p>
@@ -83,8 +83,8 @@
       </div>
       <p class="container2__text_footer">$60 Apple Music gift card with purchase of select Beats products.*</p>
     </div>
-  </div>
-  <div class="container3">
+  </section>
+  <section class="container3">
     <div class="container3__text">
       <p class="container3__text_begin">Talk. Listen. Beats.</p>
       <p class="container3__text_header">Beatsˣ</p>
@@ -100,9 +100,9 @@
       </div>
     </div>
     <div class="container3__img"></div>
-  </div>
+  </section>
 
-  <div class="product">
+  <section class="product">
     <div class="product__slide">
       <div class="product__photo1"></div>
       <div class="product__txt">
@@ -130,7 +130,7 @@
     <div class="product__slide">6</div>
     <div class="product__slide">7</div>
     <div class="product__slide">8</div>
-  </div>
+  </section>
   </div>
   <div class="connection">
     <h1 class="connection__header">
@@ -138,60 +138,67 @@
     </h1>
     <p class="connection__info">
       Get updates on product drops, collaborations and all things Beats.</p>
-    
-      <input type="search" value="Enter your email" class="connection__email">
-      <input type="submit" value="Sign up" class="connection__btn">
-   
-  </div>
-  <div class="footer">
-    <div class="main">
-    <div class="menu__logo">
-      <div class=" logo-inside"></div>
-    </div>
-    <div class="footer__products">
-      <ul>
-        <li><p>Products</p></li>
-        <li><a href="#">Headphones</a></li>
-        <li><a href="#">Earphones</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Accesorries</a></li>
-        <li><a href="#">Collaborations</a></li>
-        <li><a href="#">Bestaudio</a></li>
-        <li><a href="#">Special offers</a></li>
-      </ul>
-    </div>
-    <div class="footer__support">
-      <ul>       
-        <li><p>Support</p></li>
-        <li><a href="#">PRODUCT HELP</a></li>
-        <li><a href="#">NEWS AND EVENTS</a></li>
-        <li><a href="#">PROMOTION TERMS</a></li>
-        <li><a href="#">PRIVACY POLICY</a></li>
-        <li><a href="#">TRADEMARK</a></li>
-        <li><a href="#">TERMS OF USE</a></li>
-        <li><a href="#">COOKIES</a></li>
-      </ul>
-    </div>
-    <div class="footer__company">
-      <ul>
-        <li><p>Company</p></li>
-        <li><a href="#">Earphones</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Accesorries</a></li>
-        <li><a href="#">Collaborations</a></li>
-        <li><a href="#">Bestaudio</a></li>
-        <li><a href="#">Special offers</a></li>
-      </ul>
-    </div>
 
-    <div class="footer__follow">
-      <h1>Follow us</h1>
+    <input type="search" value="Enter your email" class="connection__email">
+    <input type="submit" value="Sign up" class="connection__btn">
+
+  </div>
+  <footer class="footer">
+    <div class="main">
+      <div class="menu__logo">
+        <div class=" logo-inside"></div>
+      </div>
+      <div class="footer__products">
+        <ul>
+          <li><span>
+            Products</span>
+          </li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Earphones</a></li>
+          <li><a href="#">Speakers</a></li>
+          <li><a href="#">Accesorries</a></li>
+          <li><a href="#">Collaborations</a></li>
+          <li><a href="#">Bestaudio</a></li>
+          <li><a href="#">Special offers</a></li>
+        </ul>
+      </div>
+      <div class="footer__support">
+        <ul>
+          <li><span>
+            Support</span>
+          </li>
+          <li><a href="#">product help</a></li>
+          <li><a href="#">service & warranty</a></li>
+          <li><a href="#">register your beats</a></li>
+          <li><a href="#">update your beats</a></li>
+          <li><a href="#">authorized service providers</a></li>
+          <li><a href="#">contact support</a></li>
+          <li><a href="#">international numbers</a></li>
+        </ul>
+      </div>
+      <div class="footer__company">
+        <ul>
+          <li ><span>
+            Company</span>
+          </li>          
+          <li><a href="#">product help</a></li>
+          <li><a href="#">news and events</a></li>
+          <li><a href="#">promotion terms</a></li>
+          <li><a href="#">privacy policy</a></li>
+          <li><a href="#">trademark</a></li>
+          <li><a href="#">terms of use</a></li>
+          <li><a href="#">cookies</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__follow">
+        <p>Follow us</p>
+      </div>
     </div>
-  </div>
-  <div class="footer__info">
-    <p>Copyright © 2020 Apple Inc. - All rights reserved.</p>
-  </div>
-  </div>
+    <div class="footer__info">
+      <span>Copyright © 2020 Apple Inc. - All rights reserved.</span>
+    </div>
+  </footer>
 
 
 
