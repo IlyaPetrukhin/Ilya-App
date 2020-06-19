@@ -34,14 +34,14 @@ body {
 }
 
 .menu__logo {
-
   width: 49.87px;
   height: 49.87px;
   background: url(../images/navmain.png);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 14px 94px 14px 94px;
+  margin-left: 94px;
+  margin-right: 130px;
 }
 
 .menu__logo .logo-inside {
@@ -86,8 +86,8 @@ body {
   width: 856px;
   height: 766px;
   background: url(../images/Earphones.png);
-
 }
+
 
 .container__content1 {
   margin-top: 121px;
@@ -162,6 +162,45 @@ body {
   width: 755px;
   height: 755px;
   background: url(../images/Bitmap.png);
+  position: relative;
+}
+
+.container1__slider {
+  position: absolute;
+  left: 348px;
+  top: 614px;
+  width: 59px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.slider-photo1 {
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  margin-right: 15px;
+  border: none;
+  border-radius: 100px;
+}
+
+.slider-photo2 {
+  width: 10px;
+  height: 10px;
+  background: #D1D1D1;
+  margin-right: 15px;
+    border: none;
+  border-radius: 100px;
+}
+
+.slider-photo3 {
+  width: 10px;
+  height: 10px;
+  background: #D1D1D1;
+  border: none;
+  border-radius: 100px;
 }
 
 .container1__content1 {
@@ -459,31 +498,36 @@ body {
   height: 315px;
   margin: 0 auto;
 }
-.product__photo2{
+
+.product__photo2 {
   background: url(../images/picture2.png);
   width: 291px;
   height: 289px;
   margin: 0 auto;
 }
-.product__photo3{
+
+.product__photo3 {
   background: url(../images/picture3.png);
   width: 242px;
   height: 264px;
   margin: 0 auto;
 }
-.product__photo4{
+
+.product__photo4 {
   background: url(../images/picture4.png);
   width: 180px;
   height: 297px;
   margin: 0 auto;
 }
-.product__photo5{
+
+.product__photo5 {
   background: url(../images/picture5.png);
   width: 244px;
   height: 320px;
   margin: 0 auto;
 }
-.product__photo6{
+
+.product__photo6 {
   background: url(../images/picture6.png);
   width: 199px;
   height: 306px;
