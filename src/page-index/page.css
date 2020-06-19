@@ -3,7 +3,6 @@ body {
   padding: 0;
   background: #F2F2F2;
   max-width: 1440px;
-  ;
 }
 
 /* Menu */
@@ -492,43 +491,37 @@ body {
   align-content: center;
 }
 
-.product__photo1 {
-  background: url(../images/picture1.png);
+.product__photo1 img{
   width: 232px;
   height: 315px;
   margin: 0 auto;
 }
 
-.product__photo2 {
-  background: url(../images/picture2.png);
+.product__photo2 img{
   width: 291px;
   height: 289px;
   margin: 0 auto;
 }
 
-.product__photo3 {
-  background: url(../images/picture3.png);
+.product__photo3 img{
   width: 242px;
   height: 264px;
   margin: 0 auto;
 }
 
-.product__photo4 {
-  background: url(../images/picture4.png);
+.product__photo4 img{
   width: 180px;
   height: 297px;
   margin: 0 auto;
 }
 
-.product__photo5 {
-  background: url(../images/picture5.png);
+.product__photo5 img{
   width: 244px;
   height: 320px;
   margin: 0 auto;
 }
 
-.product__photo6 {
-  background: url(../images/picture6.png);
+.product__photo6 img{
   width: 199px;
   height: 306px;
   margin: 0 auto;
