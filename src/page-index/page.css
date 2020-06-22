@@ -1,8 +1,6 @@
+
 body {
-  margin: 0 auto;
-  padding: 0;
   background: #F2F2F2;
-  max-width: 1440px;
 }
 
 /* Menu */
@@ -335,6 +333,7 @@ body {
   display: flex;
   align-items: center;
   background: url(../images/Fon.png);
+  background-size: cover; 
 }
 
 .container2__img {
@@ -575,7 +574,7 @@ body {
 
 .connection {
   background: #F8F8F9;
-  width: 1253px;
+  
   height: 334.81px;
   margin: 106px 95px 64px 95px;
   display: flex;
