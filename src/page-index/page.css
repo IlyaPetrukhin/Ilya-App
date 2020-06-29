@@ -9,6 +9,7 @@ body {
   display: flex;
   align-items: center;
   height: 78px;
+  justify-content: space-around;
 }
 
 .menu__navigation {
@@ -25,6 +26,7 @@ body {
   font-size: 15px;
   line-height: 18px;
   letter-spacing: 1.90909px;
+  margin: 0 45px;
 }
 
 
@@ -36,20 +38,16 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 94px;
-  margin-right: 130px;
 }
 
 .menu__logo .logo-inside {
   width: 15.19px;
   height: 15.19px;
   background: url(../images/navicon.png);
-  position: absolute;
-  margin: 0px;
 }
 
 .menu__icons {
   display: flex;
-  margin-right: 95px;
 }
 
 .menu__icons .icon-find {
