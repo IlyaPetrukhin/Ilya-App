@@ -721,8 +721,18 @@ body {
   opacity: 0.31;
 }
 
-.footer__img {
-  background: url(../images/follow.png);
-  width: 165px;
-  height: 33px;
+.footer__icons {
+  display: flex;
+}
+
+.inst-icon {
+  margin-right: 14px;
+}
+
+.face-icon {
+  margin-right: 14px;
+}
+
+.twit-icon {
+  margin-right: 14px;
 }
