@@ -1,0 +1,75 @@
+.container {
+    height: 616px;
+    background: #2B2835;
+    margin-top: -78px;
+    display: flex;
+
+    .container__image {
+        width: 856px;
+        height: 766px;
+        background: url(../images/Earphones.png);
+    }
+
+    .container__content1 {
+        margin-top: 121px;
+
+        .container__content1_description-name {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .container__content1_description-content {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 43px;
+            color: #FFFFFF;
+        }
+
+        .container__content1_description-price {
+            display: flex;
+            align-items: center;
+
+            .container__content1_description-price .price {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 49px;
+                color: #F2F2F2;
+                margin-right: 34px;
+            }
+
+            .container__content1_description-price .round-btn1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color: #000000;
+                border: none;
+                background: #00B0FF;
+                background: #00B0FF;
+                border-radius: 100px;
+                padding: 11px 48px 13px 48px;
+
+            }
+        }
+
+        .container__content1_description-footer {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            color: #00B0FF;
+        }
+    }
+
+}

@@ -10,76 +10,63 @@ body {
   align-items: center;
   height: 78px;
   justify-content: space-around;
+
+  .menu__navigation {
+    display: flex;
+
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 1.90909px;
+      margin: 0 45px;
+    }
+  }
+
+  .menu__logo {
+    width: 49.87px;
+    height: 49.87px;
+    background: url(../images/navmain.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 94px;
+
+    .logo-inside {
+      width: 15.19px;
+      height: 15.19px;
+      background: url(../images/navicon.png);
+    }
+  }
+
+  .menu__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .icon-find {
+      width: 25px;
+      height: 25px;
+      margin-right: 47px;
+    }
+
+    .person-icon {
+      width: 25px;
+      height: 25px;
+      margin-right: 47px;
+    }
+
+    .buy-icon {
+      width: 25px;
+      height: 25px;
+    }
+  }
 }
 
-.menu__navigation {
-  display: flex;
-}
-
-
-.menu__navigation a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 1.90909px;
-  margin: 0 45px;
-}
-
-
-.menu__logo {
-  width: 49.87px;
-  height: 49.87px;
-  background: url(../images/navmain.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 94px;
-}
-
-.menu__logo .logo-inside {
-  width: 15.19px;
-  height: 15.19px;
-  background: url(../images/navicon.png);
-}
-
-.menu__icons {
-  display: flex;
-}
-
-.menu__icons .icon-find {
-  width: 25px;
-  height: 25px;
-  margin-right: 47px;
-}
-
-.menu__icons .buy-icon {
-  width: 25px;
-  height: 25px;
-  margin-right: 47px;
-}
-
-.menu__icons .person-icon {
-  width: 25px;
-  height: 25px;
-  position: relative;
-}
-
-.menu__icons .third-icon {
-  background: #FF1744;
-  border-radius: 100px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 9px;
-  line-height: 11px;
-  letter-spacing: 1.90909px;
-  color: #FFFFFF;
-  padding: 1px;
-}
 
 /* End of Menu */
 .container {
@@ -88,75 +75,74 @@ body {
   margin-top: -78px;
   display: flex;
 
-}
+  .container__image {
+    width: 856px;
+    height: 766px;
+    background: url(../images/Earphones.png);
+  }
 
-.container__image {
-  width: 856px;
-  height: 766px;
-  background: url(../images/Earphones.png);
-}
+  .container__content1 {
+    margin-top: 121px;
 
+    .container__content1_description-name {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+    }
 
-.container__content1 {
-  margin-top: 121px;
-}
+    .container__content1_description-content {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 43px;
+      color: #FFFFFF;
+    }
 
-.container__content1_description-name {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  color: #FFFFFF;
-}
+    .container__content1_description-price {
+      display: flex;
+      align-items: center;
 
-.container__content1_description-content {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 43px;
-  color: #FFFFFF;
-}
+      .price {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 49px;
+        color: #F2F2F2;
+        margin-right: 34px;
+      }
 
-.container__content1_description-price {
-  display: flex;
-  align-items: center;
-}
+      .round-btn1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        border: none;
+        background: #00B0FF;
+        background: #00B0FF;
+        border-radius: 100px;
+        padding: 11px 48px 13px 48px;
 
-.container__content1_description-price .price {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 49px;
-  color: #F2F2F2;
-  margin-right: 34px;
-}
+      }
+    }
 
-.container__content1_description-price .round-btn1 {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
-  color: #000000;
-  border: none;
-  background: #00B0FF;
-  background: #00B0FF;
-  border-radius: 100px;
-  padding: 11px 48px 13px 48px;
+    .container__content1_description-footer {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 20px;
+      color: #00B0FF;
+    }
+  }
 
-}
-
-.container__content1_description-footer {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 20px;
-  color: #00B0FF;
 }
 
 /* End of Container */
