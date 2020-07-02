@@ -36,7 +36,7 @@
             display: flex;
             align-items: center;
 
-            .container__content1_description-price .price {
+            .price {
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: normal;
@@ -46,7 +46,7 @@
                 margin-right: 34px;
             }
 
-            .container__content1_description-price .round-btn1 {
+            .round-btn1 {
                 font-family: Montserrat;
                 font-style: normal;
                 font-weight: 600;
@@ -71,5 +71,648 @@
             color: #00B0FF;
         }
     }
+
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+
+    .container1__image {
+        width: 755px;
+        height: 755px;
+        background: url(../images/Bitmap.png);
+        position: relative;
+
+        .container1__slider {
+            position: absolute;
+            left: 348px;
+            top: 614px;
+            width: 59px;
+            height: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .slider-photo1 {
+                width: 10px;
+                height: 10px;
+                background: #000000;
+                margin-right: 15px;
+                border: none;
+                border-radius: 100px;
+            }
+
+            .slider-photo2 {
+                width: 10px;
+                height: 10px;
+                background: #D1D1D1;
+                margin-right: 15px;
+                border: none;
+                border-radius: 100px;
+            }
+
+            .slider-photo3 {
+                width: 10px;
+                height: 10px;
+                background: #D1D1D1;
+                border: none;
+                border-radius: 100px;
+            }
+        }
+    }
+
+    .container1__content1 {
+        margin: 89px 67px 0 96px;
+
+        .content__ovals {
+            display: flex;
+            align-items: center;
+
+            .ovals__ov1 {
+                width: 46px;
+                height: 46px;
+                border: 1px solid #000000;
+                box-sizing: border-box;
+                border-radius: 100px;
+                margin-right: 14px;
+                position: relative;
+
+                .ovals__ov1_inside {
+                    position: absolute;
+                    width: 37px;
+                    height: 37px;
+                    background: #FFFFFF;
+                    border: 1px solid #EAEAEA;
+                    box-sizing: border-box;
+                    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+                    border-radius: 100px;
+                    margin: 3.2px 0 0 3.2px;
+                }
+            }
+
+            .ovals__ov2 {
+                width: 37px;
+                height: 37px;
+                background: #DD5656;
+                border: 1px solid #EAEAEA;
+                box-sizing: border-box;
+                box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+                border-radius: 100px;
+                margin-right: 13px;
+            }
+
+            .ovals__ov3 {
+                width: 37px;
+                height: 37px;
+                background: #000000;
+                border: 1px solid #EAEAEA;
+                box-sizing: border-box;
+                box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+                border-radius: 100px;
+            }
+        }
+
+        .content__name {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #2B2835;
+        }
+
+        .content__header {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 55px;
+            color: #2B2835;
+        }
+
+        .content__available {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 55px;
+            color: #2B2835;
+        }
+
+        .content__find {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #2B2835;
+        }
+
+        .content__price {
+            display: flex;
+            align-items: center;
+
+            .price {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 49px;
+                color: #000000;
+            }
+
+            .round-btn2 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+                margin-left: 43px;
+                padding: 12px 15px;
+                border: none;
+                background: #000000;
+                border-radius: 100px;
+            }
+        }
+
+        .content__footer {
+            color: #000000;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            mix-blend-mode: normal;
+            opacity: 0.52;
+        }
+    }
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    background: url(../images/Fon.png);
+    background-size: cover;
+
+    .container2__img {
+        width: 701px;
+        height: 804px;
+        background: url(../images/Earphones2.png);
+    }
+
+    .container2__text {
+        font-family: Montserrat;
+
+        .container2__text_begin {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #F8F8F9;
+        }
+
+        .container2__text_header {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 55px;
+            text-transform: uppercase;
+            color: #F8F8F9;
+        }
+
+        .container2__text_description {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 27px;
+            color: #F8F8F9;
+        }
+
+        .container2__text_price {
+            display: flex;
+            align-items: center;
+
+            .price {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 49px;
+                color: #FFFF00;
+            }
+
+            .round-btn3 {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                background: #000000;
+                border-radius: 100px;
+                color: #FFFFFF;
+                margin-left: 41px;
+                padding: 10px 48px 14px 48px;
+                border: none;
+            }
+        }
+
+        .container2__text_footer {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.container3 {
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+
+    .container3__img {
+        background: url(../images/Earphones3.png);
+        width: 739px;
+        height: 739px;
+    }
+
+    .container3__text {
+        font-family: Montserrat;
+        font-style: normal;
+        margin-left: 93px;
+        margin-right: 160px;
+
+        .container3__text_begin {
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #2B2835;
+        }
+
+        .container3__text_header {
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 55px;
+            color: #2B2835;
+        }
+
+        .container3__text_description {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 27px;
+            color: #030303;
+        }
+
+        .container3__text_price {
+            display: flex;
+            align-items: center;
+
+            .price {
+                font-weight: normal;
+                font-size: 40px;
+                line-height: 49px;
+                color: #000000;
+            }
+
+            .round-btn4 {
+                background: #000000;
+                border-radius: 100px;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                color: #FFFFFF;
+                padding: 12px 15px;
+                margin-left: 57px;
+                border: none;
+            }
+        }
+    }
+}
+
+.product {
+    margin-left: 100px;
+
+    .product-row1 {
+        display: flex;
+    }
+
+    .product-row2 {
+        display: flex;
+    }
+
+    .product__slide {
+        background: #F8F8F9;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .product__photo1 img {
+        width: 232px;
+        height: 315px;
+        margin: 0 auto;
+    }
+
+    .product__photo2 img {
+        width: 291px;
+        height: 289px;
+        margin: 0 auto;
+    }
+
+    .product__photo3 img {
+        width: 242px;
+        height: 264px;
+        margin: 0 auto;
+    }
+
+    .product__photo4 img {
+        width: 180px;
+        height: 297px;
+        margin: 0 auto;
+    }
+
+    .product__photo5 img {
+        width: 244px;
+        height: 320px;
+        margin: 0 auto;
+    }
+
+    .product__photo6 img {
+        width: 199px;
+        height: 306px;
+        margin: 0 auto;
+    }
+
+    .product__txt {
+        margin: 0 20px;
+        font-family: Montserrat;
+        font-style: normal;
+    }
+
+    .product__name {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 55px;
+        color: #2B2835;
+    }
+
+    .product__header {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #030303;
+    }
+
+    .product__price {
+        display: flex;
+        align-items: center;
+    }
+
+    .price {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: #9D8220;
+    }
+
+    .round-btn5 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        background: #000000;
+        border-radius: 100px;
+        padding: 11px 30px 13px 36px;
+        margin-left: 13px;
+        border: none;
+    }
+
+    .round-btn5:hover {
+        background-color: blue;
+    }
+}
+
+.connection {
+    background: #F8F8F9;
+    height: 334.81px;
+    margin: 106px 95px 64px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.connection__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+    color: #2B2835;
+}
+
+.connection__info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    margin-bottom: 46px;
+}
+
+.connection__email {
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 507px;
+    height: 36px;
+    margin-bottom: 19px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    mix-blend-mode: normal;
+    opacity: 0.31;
+}
+
+.connection__btn {
+    background: #00B0FF;
+    border-radius: 100px;
+    padding: 12px 221px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.connection {
+    background: #F8F8F9;
+    height: 334.81px;
+    margin: 106px 95px 64px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.connection__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+    color: #2B2835;
+}
+
+.connection__info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    margin-bottom: 46px;
+}
+
+.connection__email {
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 507px;
+    height: 36px;
+    margin-bottom: 19px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    mix-blend-mode: normal;
+    opacity: 0.31;
+}
+
+.connection__btn {
+    background: #00B0FF;
+    border-radius: 100px;
+    padding: 12px 221px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer {
+    background: #2B2835;
+
+    li {
+        list-style-type: none;
+
+        a {
+            font-weight: 300;
+        }
+    }
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            text-transform: uppercase;
+            text-decoration: none;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+        .menu__logo {
+            width: 49.87px;
+            height: 49.87px;
+            background: url(../images/navmain.png);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 94px;
+    
+            .logo-inside {
+                width: 15.19px;
+                height: 15.19px;
+                background: url(../images/navicon.png);
+            }
+        }
+    
+        .footer__follow {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 31px;
+            color: #FFFFFF;
+        }
+    
+        .footer__info {
+            text-align: center;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.31;
+        }
+    
+        .footer__icons {
+            display: flex;
+    
+            .inst-icon {
+                margin-right: 14px;
+            }
+    
+            .face-icon {
+                margin-right: 14px;
+            }
+    
+            .twit-icon {
+                margin-right: 14px;
+            }
+        }
+    }
+
 
 }
