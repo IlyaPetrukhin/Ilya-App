@@ -1,7 +1,3 @@
-body {
-  background: #F2F2F2;
-}
-
 .menu {
   background: #191720;
   mix-blend-mode: normal;
@@ -11,7 +7,11 @@ body {
   height: 78px;
   justify-content: space-around;
 
-  .menu__navigation {
+  &__lines {
+    display: none;
+  }
+
+  &__navigation {
     display: flex;
 
     a {
@@ -27,23 +27,14 @@ body {
     }
   }
 
-  .menu__logo {
+  &__logo {
     width: 49.87px;
     height: 49.87px;
-    background: url(../images/navmain.png);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: url(../images/page1.png);
     margin-left: 94px;
-
-    .logo-inside {
-      width: 15.19px;
-      height: 15.19px;
-      background: url(../images/navicon.png);
-    }
   }
 
-  .menu__icons {
+  &__icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,4 +56,52 @@ body {
       height: 25px;
     }
   }
-} 
+
+}
+
+@media (max-width:768px),(min-width:320px) {
+  .menu {
+    height: 40px;
+    justify-content:flex-start;
+
+    &__lines {
+      display: flex;
+      flex-direction: column;
+      margin-left: 21px;
+
+      .line {
+        height: 2px;
+        width: 16px;
+        background: #FFFFFF;
+        margin-bottom: 3px;
+      }
+    }
+
+    &__logo {
+      width: 27px;
+      height: 27px;
+      background: url(../images/Page.png);
+      margin-right: 200px;
+    }
+
+    &__navigation {
+      display: none;
+    }
+
+    &__icons {
+      .icon-find {
+        display: none;
+      }
+
+      .person-icon {
+        width: 22px;
+        height: 22px;
+      }
+
+      .buy-icon {
+        width: 22px;
+        height: 20px;
+      }
+    }
+  }
+}
