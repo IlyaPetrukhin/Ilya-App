@@ -5,14 +5,8 @@ body {
 .container {
     height: 616px;
     background: #2B2835;
-    margin-top: -78px;
     display: flex;
 
-    .container__image {
-        width: 856px;
-        height: 766px;
-        background: url(../images/Earphones.png);
-    }
 
     .container__content1 {
         margin-top: 121px;
@@ -77,9 +71,22 @@ body {
     }
 
 }
+
 @media (max-width:768px) {
     .container {
-        display: none;
+        flex-direction: column;
+        padding: 0 19px;
+
+        &__image {
+            flex: 0 0 33.33%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                top: 0;
+                left: 0;
+            }
+        }
     }
 }
 
@@ -258,11 +265,24 @@ body {
         }
     }
 }
+
 @media (max-width:768px) {
     .container1 {
-        display: none;
+        flex-direction: column-reverse;
+
+        .container1__image {
+
+            .container1__slider {
+                display: none;
+            }
+        }
+
+        .container1__content1 {
+            margin: -89px -67px 0 -96px
+        }
     }
 }
+
 .container2 {
     display: flex;
     align-items: center;
@@ -338,11 +358,13 @@ body {
         }
     }
 }
+
 @media (max-width:768px) {
     .container2 {
         display: none;
     }
 }
+
 .container3 {
     background: #F4F4F4;
     display: flex;
@@ -406,11 +428,13 @@ body {
         }
     }
 }
+
 @media (max-width:768px) {
     .container3 {
         display: none;
     }
 }
+
 .product {
     margin-left: 100px;
 
@@ -518,68 +542,12 @@ body {
         background-color: blue;
     }
 }
+
 @media (max-width:768px) {
     .product {
         display: none;
     }
 }
-.connection {
-    background: #F8F8F9;
-    height: 334.81px;
-    margin: 106px 95px 64px 95px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-}
-
-.connection__header {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 55px;
-    color: #2B2835;
-}
-
-.connection__info {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #030303;
-    margin-bottom: 46px;
-}
-
-.connection__email {
-    border: 1px solid #BFBFBF;
-    box-sizing: border-box;
-    border-radius: 18px;
-    width: 507px;
-    height: 36px;
-    margin-bottom: 19px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #030303;
-    mix-blend-mode: normal;
-    opacity: 0.31;
-}
-
-.connection__btn {
-    background: #00B0FF;
-    border-radius: 100px;
-    padding: 12px 221px;
-    border: none;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
 
 .connection {
     background: #F8F8F9;
@@ -638,9 +606,67 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+.connection {
+    background: #F8F8F9;
+    height: 334.81px;
+    margin: 106px 95px 64px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.connection__header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 55px;
+    color: #2B2835;
+}
+
+.connection__info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    margin-bottom: 46px;
+}
+
+.connection__email {
+    border: 1px solid #BFBFBF;
+    box-sizing: border-box;
+    border-radius: 18px;
+    width: 507px;
+    height: 36px;
+    margin-bottom: 19px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #030303;
+    mix-blend-mode: normal;
+    opacity: 0.31;
+}
+
+.connection__btn {
+    background: #00B0FF;
+    border-radius: 100px;
+    padding: 12px 221px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 @media (max-width:768px) {
-    .connection{
+    .connection {
         display: none;
     }
 }
-
