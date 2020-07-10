@@ -19,6 +19,7 @@
     }
 
     .main {
+        margin-left: 135px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
@@ -46,23 +47,16 @@
         }
     }
 
-    .menu__logo {
-        width: 49.87px;
-        height: 49.87px;
-        background: url(../images/navmain.png);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 94px;
+    &__logo {
 
-        .logo-inside {
-            width: 15.19px;
-            height: 15.19px;
-            background: url(../images/navicon.png);
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
 
-    .footer__follow {
+    &__follow {
         font-family: Montserrat;
         font-style: normal;
         font-weight: 600;
@@ -71,7 +65,7 @@
         color: #FFFFFF;
     }
 
-    .footer__info {
+    &__info {
         text-align: center;
         font-family: Montserrat;
         font-style: normal;
@@ -81,27 +75,48 @@
         color: #FFFFFF;
         mix-blend-mode: normal;
         opacity: 0.31;
+
+        &__icons {
+            display: flex;
+
+            .inst-icon {
+                margin-right: 14px;
+            }
+
+            .face-icon {
+                margin-right: 14px;
+            }
+
+            .twit-icon {
+                margin-right: 14px;
+            }
+        }
     }
 
-    .footer__icons {
-        display: flex;
 
-        .inst-icon {
-            margin-right: 14px;
-        }
-
-        .face-icon {
-            margin-right: 14px;
-        }
-
-        .twit-icon {
-            margin-right: 14px;
-        }
-    }
 }
 
 @media (max-width:768px) {
     .footer {
-        display: none;
+        .main {
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "header header header header header"
+                "support support support support support"
+                "company company company company company"
+                "follow follow follow follow follow";
+        }
+
+        ul .hidden {
+            display: none;
+        }
+
+        ul .visual {}
+
+        &__logo {}
+
+        &__follow {}
+
+        &__info {}
+
     }
 }
