@@ -99,24 +99,20 @@
 @media (max-width:768px) {
     .footer {
         .main {
-            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
             grid-template-areas: "header header header header header"
                 "support support support support support"
                 "company company company company company"
                 "follow follow follow follow follow";
+            grid-auto-flow: column;
+
+            ul .hidden li {
+                display: none;
+            }
         }
 
-        ul .hidden {
-            display: none;
-        }
 
-        ul .visual {}
 
-        &__logo {}
-
-        &__follow {}
-
-        &__info {}
 
     }
 }
