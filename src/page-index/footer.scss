@@ -19,16 +19,17 @@
     }
 
     .main {
-        margin-left: 135px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
 
         a {
             text-decoration: none;
+            text-transform: uppercase;
         }
 
         li {
-            text-transform: uppercase;
             text-decoration: none;
             font-family: Montserrat;
             font-style: normal;
@@ -99,20 +100,33 @@
 @media (max-width:768px) {
     .footer {
         .main {
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas: "header header header header header"
-                "support support support support support"
-                "company company company company company"
-                "follow follow follow follow follow";
-            grid-auto-flow: column;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
 
-            ul .hidden li {
-                display: none;
+            ul {
+                margin-left: -35px;
+            }
+
+            .visual {
+                text-align: center;
+            }
+
+            .hidden li {
+                a {
+                    display: none;
+                }
+
+                text-align: center;
             }
         }
 
+        &__follow {
+            text-align: center;
+        }
 
-
-
+        &__info {
+            display: none;
+        }
     }
 }

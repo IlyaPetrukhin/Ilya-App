@@ -98,13 +98,13 @@
       .person-icon {
         width: 22px;
         height: 22px;
-        filter: brightness(0) invert(1);
+        filter:hue-rotate(500deg) brightness(9.5) saturate(600%);
       }
 
       .buy-icon {
         width: 22px;
         height: 20px;
-        filter: brightness(0) invert(1);
+        filter:hue-rotate(500deg) brightness(9.5) saturate(600%);
       }
     }
   }
