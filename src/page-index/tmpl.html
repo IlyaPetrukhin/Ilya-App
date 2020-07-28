@@ -16,16 +16,20 @@
 <body>
 
   <%= require('html-loader!../partials/nav.html') %>
-  <main>
+  <section class="wrapper1">
     <section class="container1">
-      <div class="container1__slider">
-        <div class="slide"><img src="/src/images/image8m.png"></div>
-        <div class="slide"><img src="/src/images/image9m.png"></div>
-        <div class="slide"><img src="/src/images/image10m.png"></div>
-        <div class="slide"><img src="/src/images/image11m.png"></div>
+      <div class="wrap">
+        <img src="/src/images/top.png">
+        <div class="container1__slider">
+          <div class="slide"><img src="/src/images/image8m.png"></div>
+          <div class="slide"><img src="/src/images/image9m.png"></div>
+          <div class="slide"><img src="/src/images/image10m.png"></div>
+          <!-- <div class="slide"><img src="/src/images/image11m.png"></div>
         <div class="slide"><img src="/src/images/image12m.png"></div>
         <div class="slide"><img src="/src/images/image13m.png"></div>
-        <div class="slide"><img src="/src/images/image14m.png"></div>
+        <div class="slide"><img src="/src/images/image14m.png"></div> -->
+        </div>
+        <img src="/src/images/bottom.png">
       </div>
       <div class='container1__content1'>
         <p class="content__name">Portable Wireless Speaker</p>
@@ -53,8 +57,13 @@
         <img src="/src/images/Bitmap.png">
       </div>
     </section>
+  </section>
+  <section class="wrapper2">
     <div class="recommended">Recommended</div>
+  </section>
+  <section class="wrapper3">
     <div class="product">
+      <div class="arrow-left"><img src="/src/images/arrow1.png"></div>
       <div class="product-row1">
         <div class="product__slide">
           <div class="product__photo1"><img src="/src/images/picture1.png"></div>
@@ -124,8 +133,75 @@
             </div>
           </div>
         </div>
+        <!-- <div class="product__slide">
+          <div class="product__photo5"><img src="/src/images/picture5.png"></div>
+          <div class="product__txt">
+            <div class="product__name">
+              <p>Beatsˣ</p>
+            </div>
+            <div class="product__header">
+              <p>Up to 8 hours of battery life<br>
+                With Fast Fuel, a 5-minute charge = 2 hours of playback</p>
+            </div>
+            <div class="product__price ">
+              <p class="price">$199.95</p>
+              <button class="round-btn5">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="product__slide">
+          <div class="product__photo6"><img src="/src/images/picture6.png"></div>
+          <div class="product__txt">
+            <div class="product__name">
+              <p>Beatsˣ</p>
+            </div>
+            <div class="product__header">
+              <p>Up to 8 hours of battery life<br>
+                With Fast Fuel, a 5-minute charge = 2 hours of playback</p>
+            </div>
+            <div class="product__price ">
+              <p class="price">$199.95</p>
+              <button class="round-btn5">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="product__slide product__slide_hide">
+          <div class="product__photo2"><img src="/src/images/picture2.png"></div>
+          <div class="product__txt">
+            <div class="product__name">
+              <p>Beatsˣ</p>
+            </div>
+            <div class="product__header">
+              <p>Up to 8 hours of battery life<br>
+                With Fast Fuel, a 5-minute charge = 2 hours of playback</p>
+            </div>
+            <div class="product__price ">
+              <p class="price">$199.95</p>
+              <button class="round-btn5">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="product__slide product__slide_hide">
+          <div class="product__photo6"><img src="/src/images/picture6.png"></div>
+          <div class="product__txt">
+            <div class="product__name">
+              <p>Beatsˣ</p>
+            </div>
+            <div class="product__header">
+              <p>Up to 8 hours of battery life<br>
+                With Fast Fuel, a 5-minute charge = 2 hours of playback</p>
+            </div>
+            <div class="product__price ">
+              <p class="price">$199.95</p>
+              <button class="round-btn5">BUY NOW</button>
+            </div>
+          </div>
+        </div> -->
       </div>
+      <div class="arrow-right"><img src="/src/images/arrow2.png"></div>
     </div>
+  </section>
+  <section class="wrapper4">
     <ul class="tabs">
       <li>Description</li>
       <li>Characteristics</li>
@@ -153,7 +229,8 @@
         </div>
       </div>
     </section>
-  </main>
+  </section>
+
   <%= require('html-loader!../partials/footer.html') %>
 </body>
 
