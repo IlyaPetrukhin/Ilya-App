@@ -32,7 +32,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/i,
+        //test: /\.js$/i,
+        test: /\.(css|scss)(\?.*)?$/i,
         exclude: /node_modules/,
         loader: 'babel-loader',
         options: {
